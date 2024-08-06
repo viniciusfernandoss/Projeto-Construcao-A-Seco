@@ -5,8 +5,8 @@
     min-height: 90vh;
     padding: 0 35px;
     font-family: "Poppins", serif;
-    margin-bottom: 15%;
-    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-top: 0%;
 }
 .wrapper {
     width: 100%;
@@ -84,7 +84,7 @@
     background: #fff;
     border-radius: 8px;
     display: flex;
-    width: 98%;
+    width: 85%;
     padding: 25px;
     flex-direction: column;
     cursor: w-resize;

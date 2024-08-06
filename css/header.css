@@ -46,6 +46,8 @@ header {
     margin-left: 20px;
 }
 
+
+
 nav {
     background-color: #969696ec;
     display: flex;
@@ -151,5 +153,50 @@ nav.fixed {
     #btn-fale-conosco {
         font-size: 0.8rem;
         letter-spacing: 1.5px;
+    }
+}
+@media (max-width: 768px){
+    .informacoes p {
+        font-size: 0.5rem;
+        margin: 5px;
+    }
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 1%;
+    }
+    .informacoes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .informacoes img {
+        margin-right: 0px;
+    }
+    .rede-sociais a {
+        margin-left: 5px;
+    }
+
+
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 11vh;
+        padding: 0 1%;
+        transition: top 0.5s;
+    }
+    #logo-header{
+        width: 8.5%;
+    }
+    .navegacao a {
+        font-size: 0.5rem;
+    }
+    #btn-fale-conosco {
+        font-size: 0.5rem;
+        padding: 0.6% 1.4%;
+        letter-spacing: 1px;
     }
 }

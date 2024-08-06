@@ -54,3 +54,23 @@
         font-size: 0.8rem;
     }
 }
+
+@media (max-width: 768px){
+    .section-inicial-background{
+        width: 100%;
+        height: 70vh;
+    }
+    .section-inicial h1{
+        font-size: 2rem;
+    }
+    .section-inicial a{
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        padding: 0.63% 1.45%;
+        border-radius: 39px;
+        margin-top: 3%;
+    }
+    .section-inicial{
+        height: 70vh;
+    }
+}
