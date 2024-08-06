@@ -1,0 +1,106 @@
+.informacoes-footer{
+    background-color: #969696;
+    height: 34.4vh;
+    color: white;
+    font-family: "Poppins", serif;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 3%;
+}
+.informacoes-footer h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.menu ul{
+    margin-top: 5%;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.contato{
+    margin: 0 15%;
+}
+.contato p{
+    margin: 5% 0;
+}
+.redes-sociais-footer{
+    margin-top: 0%;
+}
+.redes-sociais-footer a{
+   
+}
+.redes-sociais-footer {
+    color: white;
+    margin: 0 0%;
+    font-size: 1.5rem;
+}
+.redes-sociais-footer .bi-whatsapp{
+    color: white;
+    margin-right: 4%;
+}
+.redes-sociais-footer .bi-instagram{
+    color: white;
+}
+.localizacao p{
+    margin: 5% 0;
+}
+
+
+
+.direitos-footer{
+    background-color: #474747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15.61vh;
+    width: 100%;
+}
+.direitos-footer p{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.logo-copyright{
+margin-right: 5%;
+}
+.logo-copyright img{
+    width: 216px;
+}
+.desenvolvido{
+margin-left: 5%;
+}
+.desenvolvido img{
+    width: 151px;
+}
+
+@media (max-width: 1573px),(max-height: 900px){
+    .informacoes-footer h1{
+        font-size: 1.5rem;
+    }
+    .menu li a{
+        font-size: 0.8rem;
+    }
+    .contato p{
+        font-size: 0.8rem;
+    }
+    .localizacao p{
+        font-size: 0.8rem;
+    }
+
+
+    .logo-copyright img{
+        width: 160px;
+    }
+    .desenvolvido img{
+        width: 120px;
+    }
+}

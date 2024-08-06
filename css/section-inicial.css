@@ -1,0 +1,56 @@
+.section-inicial-background{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/background-section-inicial.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+.section-inicial-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 2;
+}
+
+
+.section-inicial{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+}
+.section-inicial h1{
+    font-family: "Poppins", serif;
+    font-size: 5rem;
+    color: white;
+}
+.section-inicial a{
+    background-color: white;
+    color: #474747;
+    font-family: "Poppins", serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 0.63% 1.45%;
+    border-radius: 39px;
+    margin-top: 3%;
+}
+
+@media (max-width: 1573px),(max-height: 900px){
+    .section-inicial h1{
+        font-size: 3rem;
+    }
+    .section-inicial a{
+        font-size: 0.8rem;
+    }
+}

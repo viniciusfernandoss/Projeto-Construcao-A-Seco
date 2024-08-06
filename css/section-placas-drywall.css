@@ -1,0 +1,120 @@
+.section-placas-drywall{
+    text-align: center;
+    padding: 12% 0;
+}
+
+.section-placas-drywall h1{
+    margin-top: 0%;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #969696;
+}
+.section-placas-drywall p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #969696;
+    margin: 1% 0 2% 0;
+}
+.img-chapas-de-gesso img{
+    border-radius: 183px;
+    box-shadow: 0px 15px 32px 0px #00000026, 0px 59px 59px 0px #00000021;
+
+}
+
+
+
+.info-placas{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0% 0px 0px;
+    font-family: "Poppins", serif;
+    
+}
+.placa-st{
+    width: 25%;
+    text-align: right;
+}
+.placa-st h2{
+    color: #969696;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.placa-st p{
+    margin-top: 5%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.placa-rf{
+    text-align: center;
+    width: 20%;
+    margin: 0 3%;
+}
+.placa-rf h2{
+    color: #969696;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.placa-rf p{
+    margin-top: 5%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.placa-ru{
+    text-align: left;
+    width: 25%;
+}
+.placa-ru h2{
+    color: #969696;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+.placa-ru p{
+    margin-top: 5%;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+@media (max-width: 1573px),(max-height: 900px){
+    .section-placas-drywall h1{
+        font-size: 2rem;
+    }
+    .section-placas-drywall p{
+        font-size: 0.9rem;
+    }
+    .img-chapas-de-gesso img{
+        width: 60%;
+    }
+
+    .placa-st h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .placa-rf h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .placa-ru h2{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .placa-st p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .placa-rf p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .placa-ru p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}

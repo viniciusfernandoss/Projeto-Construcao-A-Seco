@@ -1,0 +1,155 @@
+header {
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    top: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #474747;
+    color: white;
+    height: 5.3vh;
+    align-items: center;
+    padding: 0 10%;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+.hero.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.informacoes {
+    display: flex;
+    align-items: center;
+}
+
+.informacoes p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 50px;
+    font-family: "Poppins", serif;
+}
+
+.informacoes img {
+    margin-right: 10px;
+}
+
+.rede-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.rede-sociais a {
+    margin-left: 20px;
+}
+
+nav {
+    background-color: #969696ec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 11vh;
+    padding: 0 20%;
+    transition: top 0.5s;
+}
+
+nav.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#logo-header {
+    width: 3.75%;
+}
+
+#logo-header{
+    width: 6.5%;
+}
+#logo-header img {
+    width: 100%;
+}
+
+.navegacao {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navegacao ul {
+    display: flex;
+    gap: 3%;
+}
+
+.navegacao li {
+    list-style: none;
+    position: relative;
+}
+
+.navegacao li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+}
+
+.navegacao li:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navegacao a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+@keyframes expandBoxShadow {
+    0% {
+        box-shadow: 0px 2px 25px 0px rgba(255, 255, 255, 0.7)
+    }
+    100% {
+        box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.7)
+    }
+}
+
+#btn-fale-conosco {
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #474747;
+    font-family: "Poppins", serif;
+    border-radius: 60px;
+    padding: 0.6% 1.4%;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: none; /* Remove a borda */
+    animation: expandBoxShadow 0.9s infinite alternate; /* Aplica a animação */
+}
+
+
+@media (max-width: 1573px),(max-height: 900px){
+    .informacoes p {
+        font-size: 0.8rem;
+    }
+
+    .navegacao a {
+        font-size: 0.8rem;
+    }
+    #btn-fale-conosco {
+        font-size: 0.8rem;
+        letter-spacing: 1.5px;
+    }
+}
